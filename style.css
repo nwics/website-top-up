@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif !important;
+}
+
+body {
+	padding-bottom: : 1000px;
+	background-color: #2d3238;
+
+}
+
+
+nav {
+	z-index: 100;
+	background-color: #2d3238;
+}
+
+.navbar-brand {
+	font-size: 2.5rem !important;
+	font-family: 'Viga', sans-serif;
+}
+.navbar-nav {
+	font-weight: 600;
+}
+.nav-item a {
+	font-size: 1.25rem;
+	margin-right: 3.5px;
+}
+
+.jumbotron {
+	/*border: 1px solid;*/
+	padding-top: 2px;
+	margin-top: 80px;
+	height: 400px;
+	background-size: cover;
+	background-position: relative;	
+	background-image: url("ml-3.jpg");
+}
+.jumbotron-text {
+	color: white;
+	position: relative;
+	padding-top: 100px;
+}
+.jumbotron-text h1 {
+	font-size: 3.5rem;
+	font-weight: 300;
+}
+.container {
+	border: 1px solid;
+}
+.form-group label {
+	display: block;
+	/*width: 100%;*/
+}
+.form-group .input-control {
+  padding: 10px 16px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+ }
+.row .card {
+	border: 3px solid;
+	padding: 1rem;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	background-color: #0b2d39;
+}
+.row .pesan {
+	width: 100%;
+	font-size: 12px;
+}
+.pertanyaan {
+	/*margin-top: 20px;*/
+	padding: 50px;
+}
